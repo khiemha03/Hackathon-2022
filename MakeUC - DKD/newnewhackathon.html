@@ -1,0 +1,303 @@
+<html>
+<head>
+    
+
+
+
+<style>
+body {
+  
+  text-align:left;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #837A37;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  padding: 14px 26px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #1f1f1f;
+}
+
+</style>
+
+</head>
+
+
+
+
+<body>
+
+
+
+
+    
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#buttonAndHeading {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #837A37;
+  
+  color: white;
+  padding: 14px 40px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<div id="buttonAndHeading">
+    <H1><font color="#837A37";font face="helvetica";font size="100">DKD NEWS              </font></h1>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+</div>
+<div id="id01" class="modal">
+
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+<hr>
+
+<ul>
+  <li><a href="index.html">C R I M E S</a></li>
+  <li></li>
+  <li><a href="life.html">W E A T H E R</a></li>
+  <li><a href="album.html">H E A L T H</a></li>
+   <li> </li>
+</ul>
+</div>
+
+<br>
+<br>
+
+<img src="hackuc1.jpeg"  width="18%" height="auto"
+style="float:left;margin-right: 30px; margin-bottom:5px;border: solid 1px #aea144"/>
+
+<div style="width:75%;height: auto;background-color:rgba(109, 110, 12, 0.66);float: left; padding: 0 10px; font-size: 18px;">
+<p style="color:white;"> CARJACKING (Late), 2022-10190259, 800 block of S. Dickerson Street. At approximately 11:20 p.m. on October 19, police were dispatched to the late report of an armed robbery. Upon arrival, it was determined the victim was delivering pizza when he was approached by two unknown male suspects. The suspects allegedly threatened the victim with a firearm and demanded his personal belongings and the keys to his vehicle. The suspects then stole the victim’s belongings and fled the scene in the victim’s vehicle. No injuries were reported. Suspect One is described as a Black male, approximately 5’10”, wearing a ski mask and dark clothing. Suspect Two is described as a Black male with a husky build, approximately 5’6”, wearing a ski mask.
+
+</p>
+
+
+<br>
+<br>
+
+</ul>
+</div>
+<br>
+<br>
+
+
+<img src="hackuc2.jpeg"  width="18%" height="auto"
+style="float:left;margin-right: 30px; margin-bottom:5px;border: solid 1px #aea144"/>
+
+<div style="width:75%;height: auto;background-color:rgba(109, 110, 12, 0.66);float: left; padding: 0 10px; font-size: 18px;">
+<p style="color:rgb(255, 255, 255);"> 
+  
+  S​evere thunderstorms and soaking rain are expected in parts of the drought-parched Plains states beginning this weekend in a rather abrupt change following record cold earlier this week.
+  
+  T​his severe weather threat will escalate later Sunday in some of the same areas of the northern and central Plains that just shivered through record mid-October lows in the teens and 20s early this week.
+  I​n addition, a few storms will be possible in western North Texas and southwestern Oklahoma with the threats of a localized damaging wind gust or large hailstone.
+
+
+</p>
+
+<br>
+<br>
+
+</ul>
+</div>
+
+<br>
+<br>
+
+<img src="hackuc3.jpeg"  width="18%" height="auto"
+style="float:left;margin-right: 30px; margin-bottom:5px;border: solid 1px #aea144"/>
+
+<div style="width:75%;height: auto;background-color:rgba(109, 110, 12, 0.66);float: left; padding: 0 10px; font-size: 18px;">
+<p style="color:white;"> The World Health Organization published a 132-page report that found 500 million people will develop heart disease, obesity, diabetes or other diseases if they don't increase their physical activity. The Global Status Report on Physical Activity 2022 warned that if the 194 countries surveyed do not take urgent action, the cost of illnesses will total U.S. $27 billion a year between 2020 and 2030.
+
+  "We need more countries to scale up implementation of policies to support people to be more active through walking, cycling, sport, and other physical activity," WHO Director-General Dr. Tedros Adhanom Ghebreyesus said in the report, which measures progress by regions, rather than individual countries.
+
+
+
+</p>
+
+
+
+
+</div>
+<br>
+<br>
+
+</body>
+</html>
+
